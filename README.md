@@ -1,5 +1,5 @@
-# CF-to-DDNS (CTD)
-CloudFlare 自建 DDNS
+## CF-to-DDNS (CTD)
+> ### CF 自建 DDNS
 
 为了方便各位小伙伴做动态域名转发，自己编写一份基于CloudFlare的自建DDNS脚本 (这里感谢另一个作者 [@yulewang](https://github.com/yulewang/cloudflare-api-v4-ddns) 提供的开源代码参考)
 
@@ -10,15 +10,16 @@ CloudFlare 自建 DDNS
 ---
 
 ## 使用方法
-### PC版
+> ### PC版
 
-使用 `PowerShell` 运行命令：
+使用 *PowerShell* 运行下方命令：
 
-    (wget -O https://raw.githubusercontent.com/ksirc/CF-to-DDNS/main/pc/ctd.sh
+    wget -O https://raw.githubusercontent.com/ksirc/CF-to-DDNS/main/pc/ctd.sh
 
-使用 `pwsh ctd.sh` 运行脚本
+运行脚本： `pwsh ctd.sh`
 
 ## 配置文件
+> ### Config.ini
 首次运行脚本会生成配置文件，后续需要更改配置参考如下信息
 
     # Key 自行前往 https://dash.cloudflare.com/profile/api-tokens 创建令牌，不可用Global API Key

@@ -14,7 +14,7 @@
 
 使用 *PowerShell* 运行下方命令：
 
-    wget -O https://raw.githubusercontent.com/ksirc/CF-to-DDNS/main/pc/ctd.sh
+    wget -O https://raw.githubusercontent.com/ksirc/CF-to-DDNS/main/pc/ctd.ps1
 
 运行脚本： `pwsh ctd.sh`
 

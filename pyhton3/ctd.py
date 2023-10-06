@@ -3,7 +3,7 @@ import requests
 import json
 import os
 
-CONFIG_FILE = '/root/ddns/config.json'
+CONFIG_FILE = './config.json'
 
 def get_public_ip():
     response = requests.get('https://api64.ipify.org?format=json')
